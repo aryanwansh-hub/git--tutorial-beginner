@@ -15,19 +15,39 @@ Right click in folder or repository which you use git and click open git-bash he
 
 --> To quit press -: q
 
---> Git has three key areas:- (Edit files → git add → git commit)
+--> Always use git status after every git command to see the status of the repository.
+
+--> Git has three key areas:- ** Edit files → (git add .) → (git commit -m "comment") first comment should be "initial commit". **
 
 1. Working Directory – Where you edit files. i.e the folder where you open git bash here.
 
-2. Staging Area – Where you prepare files which are going to be committed. (git add index.html assets/ about.html) or (git add .) for all files once.
+2. Staging Area – Where you prepare files which are going to be committed. 
 
 3. Repository – Where committed changes are stored permanently or it is a checkpoint.
  
---> Now initialize a git --> means making that folder tracked by git as a repository. to initialize it --> (git init)
+--> (git init) --> means making that folder tracked by git as a repository.
 
 --> It create a hidden folder in the same repository name .git where all the snapshots are saved by git.
 
---> (git status) show the status of the repository. i.e which files or folders are untracked, tracked, staged, committed etc.
+--> (git add index.html assets/ about.html) or (git add .) for all files once to bring the files or folder to staged area.
+
+--> (git status) to track and show the status of the repository. i.e which files or folders are untracked, tracked, staged, committed etc.
+
+--> (git log) all commits with details.
+--> (git log --oneline) all commits in single line.
+
+**NOTE** --> never run (git init) command inside cloned repository becoz it is already tracked by git the moment we cloned it.
+--> (git clone url) --> it will clone the whole repository from github of anyone. make sure when cloning do in different folder outside of current repository folder.
+
+-->Files in Git move through three main states: ** working Directory → git add → Staging Area → git commit → Repository  **
+
+1. Untracked – not being tracked yet.
+
+2. Staged – ready to be committed.
+
+3. Committed – saved permanently in the Git history
+
+
 
 
 
