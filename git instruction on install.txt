@@ -1,0 +1,53 @@
+First download git file from google on git-scm.com
+
+Then next next next without changing anything in the installation window then uncheck both at last and finish the installation.
+
+Right click in folder or repository which you use git and click open git-bash here.
+
+--> Then type (git -v) to check version whether git is installed properly or not.
+
+--> After installing git run these command to setup you user_name and email globally.
+1- (git config --global user.name "name")
+2- (git config --global user.email "email")
+3- (git config --global core.editor "code --wait")  # optional, sets VS Code as editor
+
+--> To check your configuration -: (git config --list)
+
+--> To quit press -: q
+
+--> Git has three key areas:- (Edit files → git add → git commit)
+
+1. Working Directory – Where you edit files. i.e the folder where you open git bash here.
+
+2. Staging Area – Where you prepare files which are going to be committed. (git add index.html assets/ about.html) or (git add .) for all files once.
+
+3. Repository – Where committed changes are stored permanently or it is a checkpoint.
+ 
+--> Now initialize a git --> means making that folder tracked by git as a repository. to initialize it --> (git init)
+
+--> It create a hidden folder in the same repository name .git where all the snapshots are saved by git.
+
+--> (git status) show the status of the repository. i.e which files or folders are untracked, tracked, staged, committed etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
