@@ -95,13 +95,16 @@ dist/
 **/*.bak
 
 # Exception: Track this file even if ignored
+
 !important.log -->put exclamation mark(!) before the file name then git will not ignore it and it will be tracked by git.
 
+**search google for more gitignore templates**
 
+--> (git rm file_name) del/remove the file from directory/folder/repo.
 
+-->(git commit -m "Remove file_name)
 
-
-
+--> (git rm --cached file_name)-- it deletes the files from the repo. but keep it as untracked file in the directory/disk.
 
 
 
