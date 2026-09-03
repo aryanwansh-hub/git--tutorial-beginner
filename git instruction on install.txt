@@ -31,7 +31,7 @@ Right click in folder or repository which you use git and click open git-bash he
 
 --> (git add index.html assets/ about.html) or (git add .) for all files once to bring the files or folder to staged area.
 
---> (git status) to track and show the status of the repository. i.e which files or folders are untracked, tracked, staged, committed etc.
+--> (git status) to track and show the status of the repository. i.e which files or folders are modified, untracked, tracked, staged, committed etc.
 
 --> (git log) all commits with details.
 --> (git log --oneline) all commits in single line.
@@ -47,7 +47,10 @@ Right click in folder or repository which you use git and click open git-bash he
 
 3. Committed – saved permanently in the Git history
 
+--> (git restore file_name) to revert it back before any recent changes made.
+--> (git restore --staged file_name) it is used to unstaged the file back which have been staged but it does not revert any changes made inside the content of the file.
 
+--> (git diff) shows what changes have been made recently in files.
 
 
 
