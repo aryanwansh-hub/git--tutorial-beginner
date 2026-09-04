@@ -118,7 +118,11 @@ dist/
 
 --> (git branch -D branch_name) delete the branch.
 
+--> (git checkout --ours file_name) to consider our file during merger conflict.
 
+--> (git checkout --theirs file_name) to consider their file during merger conflict.
+
+**or manually remove the markers in vs code editor to resolve the conflict** then add and commit the file to complete the merger.
 
 
 
