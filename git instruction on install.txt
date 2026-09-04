@@ -135,7 +135,7 @@ dist/
 
 --> (git remote set-url origin github_url) it change the remote url.
 
---> (git push -u origin main) it push/upload the repository to the github.
+--> (git push -u origin main) it is a first push/upload the repository to the github.
 
 --> (git push) regular push
 
