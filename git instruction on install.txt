@@ -37,6 +37,7 @@ Right click in folder or repository which you use git and click open git-bash he
 --> (git log --oneline) all commits in single line.
 
 **NOTE** --> never run (git init) command inside cloned repository becoz it is already tracked by git the moment we cloned it.
+
 --> (git clone url) --> it will clone the whole repository from github of anyone. make sure when cloning do in different folder outside of current repository folder.
 
 -->Files in Git move through three main states: ** working Directory → git add → Staging Area → git commit → Repository  **
@@ -55,9 +56,9 @@ or
 
 -->(git restore .) this permanently discards uncommitted/modified changes in the file . ie someone add malicious or unwanted data in the file.
 
---> (git diff) shows what changes have been made recently in files.
+--> (git diff) shows unstaged changes have been made recently in files.
 
---> (git diff --staged) shows what will go into your next commit.
+--> (git diff --staged) shows staged changes in files.
 
 --> (git diff HEAD~1 HEAD) it compares the last commit with the current one.
 
@@ -65,17 +66,18 @@ or
 
 --> (git add forgotten.txt) stage the forgotten file.
 
---> (git reset --soft HEAD~1) soft reset: keeps changes in staging.
+--> (git reset --soft HEAD~1) undo last commit keeps changes staged.
 
---> (git reset HEAD~1) mixed reset: keeps changes in working directory.
+--> (git reset HEAD~1) undo last commit keep changes unstaged.
 
---> (git reset --hard HEAD~1) hard reset: discards all changes--it paermanenetly deletes uncommitted work!
+--> (git reset --hard HEAD~1) undo last commit an discard changes.
 
 --> to make git ignore certain files create (.gitignore) file in the repository and then add the names of those files with their extension.
 
 **Common files to add in .gitignore**
 
 # Ignore specific files
+
 secret.txt
 config.env
 
@@ -102,11 +104,13 @@ dist/
 
 --> (git rm file_name) del/remove the file from directory/folder/repo.
 
--->(git commit -m "Remove file_name)
+--> (git rm --cached file_name)-- (stop tracking file) it deletes the files from the repo. but keep it as untracked file in the directory/disk.
 
---> (git rm --cached file_name)-- it deletes the files from the repo. but keep it as untracked file in the directory/disk.
+--> (git mv old_name new_name) it rename the file.
 
+--> (git branch) view current branch
 
+--> (git switch -c branch-name) create a new branch beside master branch.
 
 
 
