@@ -1,8 +1,7 @@
-this is readme.
-the best git hub repo.
+The best git hub repo.
 
-best ways are :
-sleep 
-eat 
-code 
-repeat
+Best ways are :
+-sleep 
+-eat 
+-code 
+-repeat
