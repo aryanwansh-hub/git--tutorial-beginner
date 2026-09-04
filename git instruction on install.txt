@@ -141,8 +141,23 @@ dist/
 
 --> (git push origin branch-name) it push specific branch.
 
+**We can directly edit and commit changes in github directly and commit it to main branch however we have to fetch the information on git terminal on pc to update on our system**
 
+--> (git pull) it is *fetch+merge*
 
+--> (git pull origin branch_name) pull specific branch
+
+** Fetch Changes **
+
+--> (git fetch) Fetch without merging
+
+--> (git fetch --all) Fetch all remotes
+
+**Branch management**
+
+--> (git branch -r) list remote branch
+
+--> (git push origin --delete branch_name) delete remote branch
 
 
 
