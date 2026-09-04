@@ -159,7 +159,7 @@ dist/
 
 --> (git push origin --delete branch_name) delete remote branch
 
-
+*** installing git hub desktop** as author Delta~Codes**
 
 
 
