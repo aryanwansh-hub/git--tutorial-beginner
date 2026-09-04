@@ -112,6 +112,8 @@ dist/
 
 --> (git switch -c branch-name) create a new branch beside master branch.
 
+--> (git switch branch_name) switch to other branch.
+
 
 
 
