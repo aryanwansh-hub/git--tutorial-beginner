@@ -1,7 +1,9 @@
-The best git hub repo.
+# The best git hub repo.
 
 Best ways are :
--sleep 
--eat 
--code 
--repeat
+- sleep 
+- eat 
+- code 
+- repeat 
+
+ THANK-YOU
