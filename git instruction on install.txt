@@ -125,8 +125,21 @@ dist/
 **or manually remove the markers in vs code editor to resolve the conflict** then add and commit the file to complete the merger.
 
 
+**GIT-HUB**
 
+--> (git remote -v) it shows the remotes github_url of push and fetch.
 
+-->(git branch -m main) change the name of master branch to main for github.
+
+--> (git remote add origin github_url) it setup the git_url where we upload our git repo.
+
+--> (git remote set-url origin github_url) it change the remote url.
+
+--> (git push -u origin main) it push/upload the repository to the github.
+
+--> (git push) regular push
+
+--> (git push origin branch-name) it push specific branch.
 
 
 
