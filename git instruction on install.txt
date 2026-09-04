@@ -161,6 +161,35 @@ dist/
 
 *** installing git hub desktop** as author Delta~Codes**
 
+**GIT STASH** temporary save uncomitted changes.
+
+--> (git stash) temporarily saved the unstaged & uncomitted changes. but will not show on (git status) it show working tree clean.
+
+--> (git stash list) list all stashes
+
+--> (git stash apply) apply most recent stash 
+
+--> (git stash apply stash@1) to apply specific stash
+
+--> (git stash pop) apply and remove from stash list.
+
+
+Command 
+git stash- Save changes to stash
+git stash list- List all stashes
+git stash apply- Apply stash without removing
+git stash pop- Apply and remove stash
+git stash drop- Delete a stash
+git stash show- View stash contents
+git stash clear- Remove all stashes
+git stash branch [name]- Create branch from stash
+Description
+
+
+
+
+
+
 
 
 
