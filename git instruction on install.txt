@@ -108,11 +108,15 @@ dist/
 
 --> (git mv old_name new_name) it rename the file.
 
---> (git branch) view current branch
+--> (git branch) view the name of branches.
 
 --> (git switch -c branch-name) create a new branch beside master branch.
 
 --> (git switch branch_name) switch to other branch.
+
+
+
+
 
 
 
