@@ -7,3 +7,5 @@ Best ways are :
 - repeat 
 
  THANK-YOU
+
+ github direct commit 
