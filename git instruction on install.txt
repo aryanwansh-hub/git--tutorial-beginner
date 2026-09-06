@@ -1,6 +1,6 @@
 First download git file from google on git-scm.com
 
-Then next next next without changing anything in the installation window then uncheck both at last and finish the installation.
+Then next without changing anything in the installation window till last then uncheck both at last and finish the installation.
 
 Right click in folder or repository which you use git and click open git-bash here.
 
@@ -19,7 +19,7 @@ Right click in folder or repository which you use git and click open git-bash he
 
 --> Git has three key areas:- ** Edit files → (git add .) → (git commit -m "comment") first comment should be "initial commit". **
 
-1. Working Directory – Where you edit files. i.e the folder where you open git bash here.
+1. Working Directory – Where you edit files. i.e. the folder where you open git bash here.
 
 2. Staging Area – Where you prepare files which are going to be committed. 
 
@@ -31,14 +31,15 @@ Right click in folder or repository which you use git and click open git-bash he
 
 --> (git add index.html assets/ about.html) or (git add .) for all files once to bring the files or folder to staged area.
 
---> (git status) to track and show the status of the repository. i.e which files or folders are modified, untracked, tracked, staged, committed etc.
+--> (git status) to track and show the status of the repository. i.e. which files or folders are modified, untracked, tracked, staged, committed etc.
 
 --> (git log) all commits with details.
+
 --> (git log --oneline) all commits in single line.
 
 **NOTE** --> never run (git init) command inside cloned repository becoz it is already tracked by git the moment we cloned it.
 
---> (git clone url) --> it will clone the whole repository from github of anyone. make sure when cloning do in different folder outside of current repository folder.
+--> (git clone URL) --> it will clone the whole repository from GitHub of anyone. make sure when cloning do in different folder outside of current repository folder.
 
 -->Files in Git move through three main states: ** working Directory → git add → Staging Area → git commit → Repository  **
 
@@ -62,9 +63,7 @@ or
 
 --> (git diff HEAD~1 HEAD) it compares the last commit with the current one.
 
---> (git commit --amend -m "previous commit msg") it ammend the previous commit 
-
---> (git add forgotten.txt) stage the forgotten file.
+--> (git commit --amend -m "previous commit msg") it amend the previous commit 
 
 --> (git reset --soft HEAD~1) undo last commit keeps changes staged.
 
@@ -78,20 +77,20 @@ or
 
 # Ignore specific files
 
-secret.txt
-config.env
+1-secret.txt
+2-config.env
 
 # Ignore all file types-
 
 *.log
-*.tmp
-*.cache
+2. *.tmp
+3. *.cache
 
 # Ignore directories/folder:-
 
 node_modules/
-build/
-dist/
+2. build/
+3. dist/
 
 # Ignore files in any directory
 **/*.bak
@@ -114,7 +113,10 @@ dist/
 
 --> (git switch branch_name) switch to other branch.
 
---> (git merge branch_name) merge a brach with master branch.
+--> (git merge branch_name) merge a branch with master branch.
+**to get out of blue screen merge window first commit msg then press esc colon wq (commit msg esc:wq)**
+
+--> (git branch -d branch_name) delete branch 1st preference.
 
 --> (git branch -D branch_name) delete the branch.
 
@@ -124,26 +126,25 @@ dist/
 
 **or manually remove the markers in vs code editor to resolve the conflict** then add and commit the file to complete the merger.
 
-
 **GIT-HUB**
 
 --> (git remote -v) it shows the remotes github_url of push and fetch.
 
--->(git branch -m main) change the name of master branch to main for github.
+-->(git branch -m main) change the name of master branch to main for GitHub.
 
 --> (git remote add origin github_url) it setup the git_url where we upload our git repo.
 
---> (git remote set-url origin github_url) it change the remote url.
+--> (git remote set-URL origin github_url) it change the remote URL.
 
---> (git push -u origin main) it is a first push/upload the repository to the github.
+--> (git push -u origin main) it is a first push/upload the repository to the GitHub.
 
 --> (git push) regular push
 
 --> (git push origin branch-name) it push specific branch.
 
-**We can directly edit and commit changes in github directly and commit it to main branch however we have to fetch the information on git terminal on pc to update on our system**
+**We can directly edit and commit changes in GitHub directly and commit it to main branch however we have to fetch the information on git terminal on pc to update on our system**
 
---> (git pull) it is *fetch+merge*
+--> (git pull) it is *fetch + merge*
 
 --> (git pull origin branch_name) pull specific branch
 
@@ -153,7 +154,7 @@ dist/
 
 --> (git fetch --all) Fetch all remotes
 
-**Branch management**
+**Remote Branch management**
 
 --> (git branch -r) list remote branch
 
@@ -161,9 +162,9 @@ dist/
 
 *** installing git hub desktop** as author Delta~Codes**
 
-**GIT STASH** temporary save uncomitted changes.
+**GIT STASH** temporary save uncommitted changes.
 
---> (git stash) temporarily saved the unstaged & uncomitted changes. but will not show on (git status) it show working tree clean.
+--> (git stash) temporarily saved the unstaged & uncommitted changes. but will not show on (git status) it show working tree clean.
 
 --> (git stash list) list all stashes
 
@@ -173,8 +174,7 @@ dist/
 
 --> (git stash pop) apply and remove from stash list.
 
-
-Command 
+Command:- 
 git stash- Save changes to stash
 git stash list- List all stashes
 git stash apply- Apply stash without removing
@@ -183,15 +183,4 @@ git stash drop- Delete a stash
 git stash show- View stash contents
 git stash clear- Remove all stashes
 git stash branch [name]- Create branch from stash
-Description
-
-
-
-
-
-
-
-
-
-
 
